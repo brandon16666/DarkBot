@@ -1,1 +1,1 @@
-worker: client.run(os.getnv('Token'))
+worker: client.run(os.getenv('Token'))
