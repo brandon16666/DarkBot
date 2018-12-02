@@ -1,1 +1,1 @@
-worker: python darkbot.py
+worker: client.run(os.getnv('Token'))
